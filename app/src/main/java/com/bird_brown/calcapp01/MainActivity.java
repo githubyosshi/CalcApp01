@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.dot_button :      //小数点を表示
                 display.setText(calc.inputData("."));
                 break;
-            case R.id.equal_button :        //=ボタンを押されたら演算を行い結果を表示
+            case R.id.equal_button :    //=ボタンを押されたら演算を行い結果を表示
                 display.setText(calc.doCalc());
                 break;
         }
